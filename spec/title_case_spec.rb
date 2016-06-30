@@ -1,7 +1,7 @@
 require('rspec')
 require('title_case')
 
-describe('FixString#title_case') do
+describe('String#title_case') do
   it('returns first letter capitalized') do
     expect("hello".title_case()).to(eq("Hello"))
   end
